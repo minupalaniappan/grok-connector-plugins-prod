@@ -5,7 +5,7 @@ All notable changes to this plugin will be documented here.
 ## 1.1.1 — team-marketplace copy
 
 - Copied from `cursor/plugins` `third_party/finance` at cdc46b3 (version 1.1.1).
-- Renamed to `finance-team` / "Finance (Team)" so it can be installed alongside the public `finance` plugin.
+- Plugin name, display name and description unchanged from upstream.
 - MCP server URL unchanged: production xAI connectors gateway.
 - Everything else (client gating, logo, license, server key `finance`) matches upstream.
 

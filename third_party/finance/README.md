@@ -1,10 +1,9 @@
-# Finance (Team)
+# Finance
 
 > Team-marketplace copy of the [`finance`](https://github.com/cursor/plugins/tree/main/third_party/finance)
-> plugin from `cursor/plugins` (v1.1.1, cdc46b3), renamed `finance-team` so it can be
-> installed alongside the public plugin. The MCP server URL is the production xAI
-> connectors gateway, identical to upstream. Not a distribution channel: end users
-> install `finance` from `cursor-public`.
+> plugin from `cursor/plugins` (v1.1.1, cdc46b3). The plugin name and the MCP server URL
+> (production xAI connectors gateway) are identical to upstream. Not a distribution
+> channel: end users install `finance` from `cursor-public`.
 
 Grok Bot plugin that connects agents to the Grok **Finance** connector through its remote [Model Context Protocol](https://modelcontextprotocol.io/) server on the Grok connectors gateway.
 

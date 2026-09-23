@@ -14,11 +14,11 @@ This is not a distribution channel. End users install `finance` from
 
 | Plugin | Upstream | Upstream commit |
 |---|---|---|
-| `finance-team` | [`cursor/plugins` `third_party/finance`](https://github.com/cursor/plugins/tree/main/third_party/finance) (v1.1.1) | cdc46b3 |
+| `finance` | [`cursor/plugins` `third_party/finance`](https://github.com/cursor/plugins/tree/main/third_party/finance) (v1.1.1) | cdc46b3 |
 
-`finance-team` is upstream `third_party/finance` with the plugin renamed so it
-can be installed alongside the public `finance` plugin. The MCP server URL is
-the same production gateway URL upstream uses:
+`finance` is a verbatim copy of upstream `third_party/finance` (same plugin
+name, display name and description). The MCP server URL is the same production
+gateway URL upstream uses:
 `https://connectors-gateway.grok.com/gateway/v1/finance/mcp`. Re-copy from
 upstream when the upstream plugin changes.
 
@@ -28,14 +28,14 @@ upstream when the upstream plugin changes.
    `https://github.com/minupalaniappan/grok-connector-plugins-prod`.
    Registering it for a team requires team admin (or the team's
    "allow third-party plugin imports" setting).
-2. Set the team marketplace policy for `finance-team` (Required, Default or
+2. Set the team marketplace policy for `finance` (Required, Default or
    Optional) or install it per user from Cursor Settings → Plugins.
-3. `finance-team` shows up only in Grok Bot (`cursor: "never"`); Cursor never
+3. `finance` shows up only in Grok Bot (`cursor: "never"`); Cursor never
    lists it.
 
 ## What installing it creates
 
-Installing `finance-team` creates a Cursor-dialed HTTP MCP row at the gateway
+Installing `finance` creates a Cursor-dialed HTTP MCP row at the gateway
 URL above. That row authenticates through the Cursor backend's registered
 OAuth client for `connectors-gateway.grok.com`; until that client id is mounted
 on the backend the row reports that it needs authorization. It is distinct from
