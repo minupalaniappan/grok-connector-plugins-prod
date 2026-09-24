@@ -2,6 +2,10 @@
 
 All notable changes to this plugin will be documented here.
 
+## 1.1.2 — Bank logo
+
+- Replaced the line-art logo with the filled bank glyph used for Finance across Grok surfaces in a brightened Finance green (#00b32e, grok.com's fg-success hue) on white. Mirrors cursor/plugins PR #425. No server or client-version changes.
+
 ## 1.1.1 — team-marketplace copy
 
 - Copied from `cursor/plugins` `third_party/finance` at cdc46b3 (version 1.1.1).
